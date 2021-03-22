@@ -1,0 +1,10 @@
+.OneNew {
+    border: 4px solid green;
+}
+
+.oneee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid yellowgreen;
+}
