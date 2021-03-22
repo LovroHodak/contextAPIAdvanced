@@ -25,7 +25,7 @@ export const NewsProvider = (props) => {
   ]);
 
   const increment = (Nid, Cid) => {
-    console.log("I WORKZZ Increment", Nid, Cid);
+    //console.log("I WORKZZ Increment", Nid, Cid);
     const newNews = news.map((newNew) => {
       if (newNew.id === Nid) {
         const updatedNew = {
@@ -49,7 +49,7 @@ export const NewsProvider = (props) => {
   };
 
   const decrement = (Nid, Cid) => {
-    console.log("I WORKZZ Decrement", Nid, Cid);
+    //console.log("I WORKZZ Decrement", Nid, Cid);
     const newNews = news.map((newNew) => {
       if (newNew.id === Nid) {
         const updatedNew = {
