@@ -24,7 +24,7 @@ export default function HomeScreen() {
                       COMMENT-LIKES: <b style={{color: 'red'}}>{com.likes}</b>
                     </p>
                     <button onClick={() => increment(nnew.id, com.id)}>Increment</button>
-                    <button onClick={() => decrement(nnew.id, com.id)}>Increment</button>
+                    <button onClick={() => decrement(nnew.id, com.id)}>Decrement</button>
                   </div>
                 );
               })}

@@ -5,3 +5,8 @@
   border: 2px solid black;
   text-align: center;
 }
+
+.firstDiv {
+  display: flex;
+  flex-direction: row;
+}
