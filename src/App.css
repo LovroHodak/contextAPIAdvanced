@@ -10,3 +10,15 @@
   display: flex;
   flex-direction: row;
 }
+
+.BUTTON_WRAPPER_STYLES {
+  position: "relative";
+  z-index: 1;
+  
+  border: 2px solid green;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
